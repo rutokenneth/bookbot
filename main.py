@@ -29,6 +29,7 @@ def main():
     # word count
     num_words = word_count()
     print(num_words)
+    # number of occurence of individual characters
     char_count()
 
 if __name__ == '__main__':
