@@ -7,10 +7,17 @@ def get_content():
         content = f.read()
         return content
         
+def word_count():
+    text = get_content()
+    words = text.split()
+    return len(words)
 
 def main():
     text = get_content()
     print(text)
+    # word count
+    num_words = word_count()
+    print(num_words)
 
 if __name__ == '__main__':
     main()
